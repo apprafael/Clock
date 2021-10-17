@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2691A40D271BC49000079EB4 /* PointerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2691A40C271BC49000079EB4 /* PointerView.swift */; };
+		2691A40F271BC9B700079EB4 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2691A40E271BC9B700079EB4 /* Color.swift */; };
+		2691A411271BC9F900079EB4 /* PlateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2691A410271BC9F900079EB4 /* PlateView.swift */; };
 		26D4C23C2719493100FC894D /* clockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D4C23B2719493100FC894D /* clockApp.swift */; };
 		26D4C23E2719493100FC894D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D4C23D2719493100FC894D /* ContentView.swift */; };
 		26D4C2402719493400FC894D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26D4C23F2719493400FC894D /* Assets.xcassets */; };
@@ -14,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2691A40C271BC49000079EB4 /* PointerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointerView.swift; sourceTree = "<group>"; };
+		2691A40E271BC9B700079EB4 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		2691A410271BC9F900079EB4 /* PlateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlateView.swift; sourceTree = "<group>"; };
 		26D4C2382719493100FC894D /* clock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = clock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26D4C23B2719493100FC894D /* clockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clockApp.swift; sourceTree = "<group>"; };
 		26D4C23D2719493100FC894D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +59,9 @@
 			children = (
 				26D4C23B2719493100FC894D /* clockApp.swift */,
 				26D4C23D2719493100FC894D /* ContentView.swift */,
+				2691A40C271BC49000079EB4 /* PointerView.swift */,
+				2691A410271BC9F900079EB4 /* PlateView.swift */,
+				2691A40E271BC9B700079EB4 /* Color.swift */,
 				26D4C23F2719493400FC894D /* Assets.xcassets */,
 				26D4C2412719493400FC894D /* Preview Content */,
 			);
@@ -138,7 +147,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				26D4C23E2719493100FC894D /* ContentView.swift in Sources */,
+				2691A40F271BC9B700079EB4 /* Color.swift in Sources */,
+				2691A40D271BC49000079EB4 /* PointerView.swift in Sources */,
 				26D4C23C2719493100FC894D /* clockApp.swift in Sources */,
+				2691A411271BC9F900079EB4 /* PlateView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
