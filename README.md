@@ -1,9 +1,13 @@
 # Clock
-A minimalist clock developed in SwiftUI
+A minimalist clock
 
 ## Video
+![clock_](https://user-images.githubusercontent.com/68432060/138193464-695b524d-0faf-41c8-a6db-c52f27ed62df.gif)
 
+## Built with
+* SwiftUI
+* Swift 5
 
-
-https://user-images.githubusercontent.com/68432060/137609406-8d6048b9-f92a-4d88-8de6-f77bc125345d.mp4
+## Features
+* MVVM
 
