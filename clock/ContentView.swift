@@ -15,10 +15,10 @@ struct ContentView: View {
             PlateView()
             PointerView(pointer: Pointer(height: 75.0,
                                          degree: viewModel.hourPointerDegree,
-                                         color: .gray))
+                                         color: .lightGray))
             PointerView(pointer:  Pointer(height: 100.0,
                                           degree: viewModel.minutePointerDegree,
-                                          color: .gray))
+                                          color: .lightGray))
             PointerView(pointer: Pointer(height: 100.0,
                                          degree: viewModel.secondPointerDegree,
                                          color: Color.red))

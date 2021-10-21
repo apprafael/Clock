@@ -11,4 +11,5 @@ extension Color {
     static let darkRed = Color(red: 0.81, green: 0.22, blue: 0.22)
     static let blackShadow = Color.black.opacity(0.2)
     static let whiteShadow = Color.white.opacity(0.7)
+    static let lightGray  = Color(red: 131 / 255, green: 132 / 255, blue: 136 / 255)
 }

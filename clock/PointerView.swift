@@ -13,7 +13,7 @@ struct PointerView: View {
     var body: some View {
         Capsule()
             .fill(pointer.color)
-            .frame(width: 3, height: pointer.height)
+            .frame(width: 4.5, height: pointer.height)
             .offset(x: 0, y: -(pointer.height/2))
             .rotationEffect(.degrees(pointer.degree))
             .shadow(color: Color.blackShadow, radius: 2, x: 5, y: 5)
