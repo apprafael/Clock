@@ -3,5 +3,7 @@ A minimalist clock developed in SwiftUI
 
 ## Video
 
-https://user-images.githubusercontent.com/68432060/137573056-14fcf249-26c6-4465-b5af-5fb66c61f7f3.mp4
+
+
+https://user-images.githubusercontent.com/68432060/137609406-8d6048b9-f92a-4d88-8de6-f77bc125345d.mp4
 
