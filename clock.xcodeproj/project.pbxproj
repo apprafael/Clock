@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2615162B2720EC89007C3EE3 /* ClockViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2615162A2720EC89007C3EE3 /* ClockViewModel.swift */; };
+		2615162D2720F0B7007C3EE3 /* Pointer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2615162C2720F0B7007C3EE3 /* Pointer.swift */; };
 		2691A40D271BC49000079EB4 /* PointerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2691A40C271BC49000079EB4 /* PointerView.swift */; };
 		2691A40F271BC9B700079EB4 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2691A40E271BC9B700079EB4 /* Color.swift */; };
 		2691A411271BC9F900079EB4 /* PlateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2691A410271BC9F900079EB4 /* PlateView.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2615162A2720EC89007C3EE3 /* ClockViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockViewModel.swift; sourceTree = "<group>"; };
+		2615162C2720F0B7007C3EE3 /* Pointer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pointer.swift; sourceTree = "<group>"; };
 		2691A40C271BC49000079EB4 /* PointerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointerView.swift; sourceTree = "<group>"; };
 		2691A40E271BC9B700079EB4 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		2691A410271BC9F900079EB4 /* PlateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlateView.swift; sourceTree = "<group>"; };
@@ -62,6 +66,8 @@
 				2691A40C271BC49000079EB4 /* PointerView.swift */,
 				2691A410271BC9F900079EB4 /* PlateView.swift */,
 				2691A40E271BC9B700079EB4 /* Color.swift */,
+				2615162A2720EC89007C3EE3 /* ClockViewModel.swift */,
+				2615162C2720F0B7007C3EE3 /* Pointer.swift */,
 				26D4C23F2719493400FC894D /* Assets.xcassets */,
 				26D4C2412719493400FC894D /* Preview Content */,
 			);
@@ -151,6 +157,8 @@
 				2691A40D271BC49000079EB4 /* PointerView.swift in Sources */,
 				26D4C23C2719493100FC894D /* clockApp.swift in Sources */,
 				2691A411271BC9F900079EB4 /* PlateView.swift in Sources */,
+				2615162B2720EC89007C3EE3 /* ClockViewModel.swift in Sources */,
+				2615162D2720F0B7007C3EE3 /* Pointer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

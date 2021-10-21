@@ -25,9 +25,3 @@ struct PointerView_Previews: PreviewProvider {
         PointerView(pointer: Pointer(height: 65, degree: 10, color: .gray))
     }
 }
-
-struct Pointer {
-    var height: Double
-    var degree: Double
-    var color: Color
-}
