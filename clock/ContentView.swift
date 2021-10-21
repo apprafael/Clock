@@ -16,7 +16,7 @@ struct ContentView: View {
             PointerView(pointer: Pointer(height: 74.0,
                                          degree: viewModel.hourPointerDegree,
                                          color: .gray))
-            PointerView(pointer:  Pointer(height: 81.0,
+            PointerView(pointer:  Pointer(height: 97.0,
                                           degree: viewModel.minutePointerDegree,
                                           color: .gray))
             PointerView(pointer: Pointer(height: 97.0,
