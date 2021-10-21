@@ -7,7 +7,6 @@ A minimalist clock
 ## Built with
 * SwiftUI
 * Swift 5
-
-## Features
 * MVVM
+
 
