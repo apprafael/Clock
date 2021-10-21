@@ -6,11 +6,13 @@
 //
 
 import SwiftUI
+import AVFoundation
 
 class ClockViewModel: ObservableObject {
     @Published var secondPointerDegree: Double = 0.0
     @Published var minutePointerDegree: Double = 0.0
     @Published var hourPointerDegree: Double = 0.0
+    private var player = Player()
     
     private func getDegrees() -> (hourPointer: Double, minutePointer: Double,secondPointer: Double) {
         let time = getTime()
@@ -35,6 +37,7 @@ class ClockViewModel: ObservableObject {
             self.secondPointerDegree = degreesPointer.secondPointer
             self.hourPointerDegree = degreesPointer.hourPointer
             self.minutePointerDegree = degreesPointer.minutePointer
+            self.player.playSound()
         }
     }
 }

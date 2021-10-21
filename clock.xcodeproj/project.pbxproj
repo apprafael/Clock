@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		2615162B2720EC89007C3EE3 /* ClockViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2615162A2720EC89007C3EE3 /* ClockViewModel.swift */; };
 		2615162D2720F0B7007C3EE3 /* Pointer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2615162C2720F0B7007C3EE3 /* Pointer.swift */; };
+		261A7A682721EE4E0059EC4A /* tic.wav in Resources */ = {isa = PBXBuildFile; fileRef = 261A7A672721EE4E0059EC4A /* tic.wav */; };
+		261A7A6A2721EF050059EC4A /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261A7A692721EF050059EC4A /* Player.swift */; };
 		2691A40D271BC49000079EB4 /* PointerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2691A40C271BC49000079EB4 /* PointerView.swift */; };
 		2691A40F271BC9B700079EB4 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2691A40E271BC9B700079EB4 /* Color.swift */; };
 		2691A411271BC9F900079EB4 /* PlateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2691A410271BC9F900079EB4 /* PlateView.swift */; };
@@ -21,6 +23,8 @@
 /* Begin PBXFileReference section */
 		2615162A2720EC89007C3EE3 /* ClockViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockViewModel.swift; sourceTree = "<group>"; };
 		2615162C2720F0B7007C3EE3 /* Pointer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pointer.swift; sourceTree = "<group>"; };
+		261A7A672721EE4E0059EC4A /* tic.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = tic.wav; sourceTree = "<group>"; };
+		261A7A692721EF050059EC4A /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		2691A40C271BC49000079EB4 /* PointerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointerView.swift; sourceTree = "<group>"; };
 		2691A40E271BC9B700079EB4 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		2691A410271BC9F900079EB4 /* PlateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlateView.swift; sourceTree = "<group>"; };
@@ -68,6 +72,8 @@
 				2691A40E271BC9B700079EB4 /* Color.swift */,
 				2615162A2720EC89007C3EE3 /* ClockViewModel.swift */,
 				2615162C2720F0B7007C3EE3 /* Pointer.swift */,
+				261A7A692721EF050059EC4A /* Player.swift */,
+				261A7A672721EE4E0059EC4A /* tic.wav */,
 				26D4C23F2719493400FC894D /* Assets.xcassets */,
 				26D4C2412719493400FC894D /* Preview Content */,
 			);
@@ -140,6 +146,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				261A7A682721EE4E0059EC4A /* tic.wav in Resources */,
 				26D4C2432719493400FC894D /* Preview Assets.xcassets in Resources */,
 				26D4C2402719493400FC894D /* Assets.xcassets in Resources */,
 			);
@@ -156,6 +163,7 @@
 				2691A40F271BC9B700079EB4 /* Color.swift in Sources */,
 				2691A40D271BC49000079EB4 /* PointerView.swift in Sources */,
 				26D4C23C2719493100FC894D /* clockApp.swift in Sources */,
+				261A7A6A2721EF050059EC4A /* Player.swift in Sources */,
 				2691A411271BC9F900079EB4 /* PlateView.swift in Sources */,
 				2615162B2720EC89007C3EE3 /* ClockViewModel.swift in Sources */,
 				2615162D2720F0B7007C3EE3 /* Pointer.swift in Sources */,
