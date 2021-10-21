@@ -10,8 +10,8 @@ import AVFoundation
 class Player {
     var player: AVAudioPlayer?
 
-    func playSound() {
-        guard let url = Bundle.main.url(forResource: "tic", withExtension: "wav") else { return }
+    func playSound(audioFile: AudioFile) {
+        guard let url = Bundle.main.url(forResource: audioFile.fileName.rawValue, withExtension: audioFile.fileExtension.rawValue) else { return }
 
         do {
             try AVAudioSession.sharedInstance().setCategory(.playback, mode: .default)
@@ -23,4 +23,17 @@ class Player {
             print(error.localizedDescription)
         }
     }
+}
+
+struct AudioFile {
+    let fileName: FileName
+    let fileExtension: FileExtension
+}
+
+enum FileName: String {
+    case tic
+}
+
+enum FileExtension: String {
+    case wav
 }

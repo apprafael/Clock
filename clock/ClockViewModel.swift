@@ -37,7 +37,7 @@ class ClockViewModel: ObservableObject {
             self.secondPointerDegree = degreesPointer.secondPointer
             self.hourPointerDegree = degreesPointer.hourPointer
             self.minutePointerDegree = degreesPointer.minutePointer
-            self.player.playSound()
+            self.player.playSound(audioFile: AudioFile.init(fileName: .tic, fileExtension: .wav))
         }
     }
 }
