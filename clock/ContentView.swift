@@ -13,13 +13,13 @@ struct ContentView: View {
     var body: some View {
         ZStack {
             PlateView()
-            PointerView(pointer: Pointer(height: 50.0,
+            PointerView(pointer: Pointer(height: 62.0,
                                          degree: viewModel.hourPointerDegree,
                                          color: .gray))
-            PointerView(pointer:  Pointer(height: 65.0,
+            PointerView(pointer:  Pointer(height: 81.0,
                                           degree: viewModel.minutePointerDegree,
                                           color: .gray))
-            PointerView(pointer: Pointer(height: 65.0,
+            PointerView(pointer: Pointer(height: 81.0,
                                          degree: viewModel.secondPointerDegree,
                                          color: Color.red))
         }.onAppear() {
