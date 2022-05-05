@@ -21,7 +21,7 @@ struct ContentView: View {
                                           color: .lightGray))
             PointerView(pointer: Pointer(height: 100.0,
                                          degree: viewModel.secondPointerDegree,
-                                         color: Color.red))
+                                         color: Color.darkRed))
         }.onAppear() {
             viewModel.startClock()
         }
