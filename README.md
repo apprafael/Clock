@@ -2,7 +2,7 @@
 A minimalist clock
 
 ## Video
-![clock_](https://user-images.githubusercontent.com/68432060/138193464-695b524d-0faf-41c8-a6db-c52f27ed62df.gif)
+![ezgif com-gif-maker-3](https://user-images.githubusercontent.com/68432060/166854840-2fe937fe-35a2-45e0-890a-1c5140deac2d.gif)
 
 ## Built with
 * SwiftUI
